@@ -1,0 +1,8 @@
+Building:
+https://daily.dev/blog/spring-boot-for-beginners
+https://www.udemy.com/course/full-stack-react-and-java-spring-boot-the-developer-guide/learn/lecture/33685294#content
+https://start.spring.io/
+
+
+Debugging:
+https://stackoverflow.com/questions/72290970/org-hibernate-persistentobjectexception-detached-entity-passed-to-persist-err

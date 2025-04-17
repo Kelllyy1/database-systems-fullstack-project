@@ -1,13 +1,13 @@
-package main.java.com.dbsystems.springboot_backend;
+package com.dbsystems.springboot_backend.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class UserController {
+public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello, Spring Boot is working!";
+        return " Backend is up and running!";
     }
 }

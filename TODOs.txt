@@ -1,0 +1,62 @@
+Recommendations:
+
+Make sure the email extension matches one that is currently in the database
+🔒 Secure this endpoint using session or role
+✨ Create a frontend dropdown for SuperAdmins to promote others
+🔄 Auto-promote a user to "RSO Admin" when they create an RSO
+A cleaner UI for displaying the dashboard based on role
+When I reload, th euser is logged out?
+I want a dropdown from the top for a login, and pop up page for sign up
+How do I avoid duplicate names being created for an already existing rso?
+Expand location to include a map
+Can we display events like a calendar please
+
+
+🎯 Student Dashboard
+ Display a list of RSOs
+
+ DONE - Allow students to join RSOs
+
+ View and filter events
+ 
+ Add search/filter bar for RSOs or Events
+
+
+ Optionally: Allow search/filter by university or category
+
+🧩 Admin Features
+ Create & manage RSOs
+
+ Post new events
+
+🛠️ Super Admin Features
+ Approve RSOs
+
+ Manage universities (add/edit)
+
+💡 Suggested Enhancements
+ Show user's RSO memberships
+
+ Event details pop-up/modal
+
+ Invite system or join-request approval
+ 
+
+
+
+
+
+
+Role	Capabilities	Requirements to Obtain Role
+Student	- View events (all types)
+- Join RSOs
+- Request to create new RSOs	- Signup with a university email
+- Associated with a valid university in the DB
+RSO Admin	- Manage a specific RSO (CRUD)
+- Create and manage events (private/public)
+- Submit event approval requests to SuperAdmin	- Student in an RSO
+- Promoted manually by a SuperAdmin OR automatically when creating RSO
+SuperAdmin	- Approve/reject public/private events
+- Manage universities
+- Oversee users, RSOs, and events	- Manually promoted via backend route OR seeded in DB
+- May have email in a "trusted domain"

@@ -1,38 +1,117 @@
-.App {
+/* General Body and Background Styles */
+body {
+  background: linear-gradient(135deg, #e2e2e2 0%, #f9f9f9 100%); /* Subtle gradient for background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #4d3956; /* Rich purple for the navbar */
+  padding: 0.8rem 2rem; /* Spacing */
+}
+
+.navbar a.navbar-brand {
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #eae0f1;
+  margin-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+/* Card Styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.card h5 {
+  color: #4d3956;
+}
+
+/* Button Styles */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #6a4f7c;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #805b9e;
+}
+
+.btn-warning {
+  background-color: #f4b400;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  background-color: #ffc107;
+}
+
+.btn-secondary {
+  background-color: #999;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #aaa;
+}
+
+/* Input and Select Styles */
+input[type="text"], input[type="email"], input[type="date"], select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, select:focus, textarea:focus {
+  border-color: #6a4f7c;
+  outline: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4d3956;
+  color: #f9f9f9;
   text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Adjustments for Alerts */
+.alert-info {
+  background-color: #eae0f1;
+  color: #4d3956;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  margin-top: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Ensure full width for sections */
+.section {
+  padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

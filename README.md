@@ -108,7 +108,7 @@ Stay tuned for updates and improvements!
 
 ## Current Progress
 
-Website landing page designed using Bootstrap
+Website landing page designed using Bootstrap (shows public events stored in the database)
 ![image](https://github.com/user-attachments/assets/3666c881-18c9-4077-9ae3-89cc23268799)
 
 Signup Page for new users to create an account

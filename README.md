@@ -1,4 +1,4 @@
-# College Event Management System - Requirements Document
+# College Event Management System
 
 ## 1. Introduction
 This document servers to outline the application's purpose, target audience, key features, and functionalities. For my database systems class, I am tasked with developing a full-stack web application. This Github repo will host plans, design diagrams, and code for the front-end, backend and database of this project. Stay-tuned for the ride &amp; enjoy :) !
@@ -104,3 +104,17 @@ The **College Event Management System** simplifies **event organization and part
 Stay tuned for updates and improvements!
 
 ---
+---
+
+## Current Progress
+
+Website landing page designed using Bootstrap
+![image](https://github.com/user-attachments/assets/3666c881-18c9-4077-9ae3-89cc23268799)
+
+Signup Page for new users to create an account
+![image](https://github.com/user-attachments/assets/6f98fb08-5002-4f72-aae3-283b1339a32d)
+
+Login Page for returning users
+![image](https://github.com/user-attachments/assets/fcb63be1-18e0-4415-acfe-313a79e49385)
+
+Currently I am working on testing to fix any bugs that arise and also add more functionality and improvements!

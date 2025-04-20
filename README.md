@@ -117,4 +117,4 @@ Signup Page for new users to create an account
 Login Page for returning users
 ![image](https://github.com/user-attachments/assets/fcb63be1-18e0-4415-acfe-313a79e49385)
 
-Currently I am working on testing to fix any bugs that arise and also add more functionality and improvements!
+Currently I am working to fix any bugs that arise, add more functionality and improvements, and add unit tests!
